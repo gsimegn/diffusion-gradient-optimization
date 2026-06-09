@@ -1,16 +1,15 @@
-# Genetic Algorithm Optimization of Diffusion MRI Gradient Waveforms
-
+# Optimization of gradient schemes for edited MRS 
 ## Overview
 
-This repository contains a MATLAB implementation of a genetic algorithm (GA) framework for optimizing diffusion MRI gradient waveforms under hardware constraints.
+This repository contains a MATLAB implementation of a genetic algorithm (GA) framework for optimizing gradientschemes under hardware constraints.
 
-The optimization searches for gradient amplitudes that maximize diffusion encoding efficiency while satisfying gradient balance constraints and scanner-specific limits.
+The optimization searches for gradient amplitudes that maximize artifact suppression while satisfying gradient balance constraints and scanner-specific limits.
 
 ## Features
 
 * Genetic Algorithm optimization using MATLAB Global Optimization Toolbox
 * Support for scanner-specific gradient limits
-* Weighted optimization of diffusion encoding pathways
+* Weighted optimization of CTPs
 * Automatic selection of top-performing gradient schemes
 * Visualization of optimization convergence
 * Visualization of optimized gradient amplitudes
