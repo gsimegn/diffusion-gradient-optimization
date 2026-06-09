@@ -31,7 +31,7 @@ run_opt_ga_gize_goodsch
 The script:
 
 1. Defines gradient constraints.
-2. Builds diffusion encoding pathway matrices.
+2. Builds weights for CTPs.
 3. Executes repeated GA optimization.
 4. Selects the best solutions.
 5. Visualizes optimization performance.
