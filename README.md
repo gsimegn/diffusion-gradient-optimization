@@ -40,7 +40,7 @@ The script:
 
 If you use this code, please cite:
 
-Gradient waveform optimization for diffusion MRI. PMID: 41261502.
+Simegn GL, Shams Z, Murali-Manohar S, Simicic D, Gad A, Song Y, Yedavalli V, Davies-Jenkins CW, Gudmundson AT, Zöllner HJ, Oeltzschner G, Edden RAE. Gradient Scheme Optimization for PRESS-Localized Edited MRS Using Weighted Pathway Suppression. NMR Biomed. 2026 Jan;39(1):e70182. doi: 10.1002/nbm.70182. PMID: 41261502; PMCID: PMC12631011.
 
 ## Disclaimer
 
