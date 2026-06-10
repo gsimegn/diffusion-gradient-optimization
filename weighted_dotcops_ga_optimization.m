@@ -1,3 +1,43 @@
+% =========================================================================
+% Gradient Scheme Optimization for PRESS-Localized Edited MRS
+% Using Weighted Pathway Suppression
+%
+% This MATLAB script implements a weighted DOTCOPS (Dephasing Optimization
+% Through Coherence Order Pathway Selection) framework for optimization of
+% crusher gradient schemes in PRESS-localized edited magnetic resonance
+% spectroscopy (MRS).
+%
+% The optimization employs a volume-based likelihood model to prioritize
+% coherence transfer pathways (CTPs) according to their probability of
+% generating out-of-voxel (OOV) artifacts. A genetic algorithm with a
+% dual-penalty objective function is used to maximize unwanted pathway
+% suppression while satisfying scanner hardware and sequence timing
+% constraints.
+%
+% Author:
+%   Gizeaddis Simegn
+%
+% Affiliation:
+%   Department of Radiology
+%   Johns Hopkins University School of Medicine
+%
+% Associated Publication:
+%   Simegn et.al.
+%   "Gradient Scheme Optimization for PRESS-Localized Edited MRS Using
+%   Weighted Pathway Suppression"
+%   PMID: 41261502
+%
+% Repository:
+%   https://github.com/gsimegn/gradient-scheme-optimization-press-edited-mrs
+%
+% License:
+%   MIT License
+%
+% Version:
+%   v1.0.0
+%
+% =========================================================================
+
 % Define bounds and constraints
 ub = [2.09 2.08 2.09 3.23 3.23 3.23 9.75 9.75 9.75 3.22 3.22 3.22 5.725 5.725 5.725];%Siemens
 %dotcops = [-1 1 0 -0.27 0.73 -1 -0.73 0.27 -1 -1 -1 -1 1 1 -1]*2.09;
